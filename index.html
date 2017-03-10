@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<!--
+(c) Lucas Hartsough 2017
+Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDigital/startbootstrap-agency)
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Lucas Hartsough</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Lucas Hartsough</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#software">Software</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#for-fun">For Fun</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://www.linkedin.com/in/lhartsough/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 intro-text">
+              <img src="img/Hartsough_headshot.jpg" class="img-responsive pull-right" alt="" width="60%">
+            </div>
+            <div class="col-lg-6 text-left">
+              <div class="intro-text">
+                  <div class="intro-heading">Bio</div>
+                  <p class="intro-lead-in">I believe that engineering biology as a computational and metabolic machine constitutes the future of bioscience, and that synthetic biology will revolutionize how we approach our most pressing scientific pursuits, both here on earth and among the stars.<br></p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-xsm-12">
+            <a href="https://www.linkedin.com/in/lhartsough/" class="page-scroll btn btn-xl">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Wetware</h2>
+                    <ul class="text-left skill-list">
+                      <li>Optogenetic & chemical manipulation of bacterial gene expression using custom hardware, both in liquid culture and in conjunction with microscopy</li>
+                      <li>Bacterial gene circuits, plasmid design & molecular cloning of DNA</li>
+                      <li>Measurement & analysis of single-cell fluorescence via flow cytometry</li>
+                      <li><em>C. elegans</em> worm culture and manipulation</li>
+                      <li>Time-lapse, single-cell fluorescence microscopy</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Software</h2>
+                    <ul class="text-left skill-list">
+                      <li>Proficient with <strong>Python</strong>. Created a custom package, PyHMMER, that enables high-throughput analysis of all NCBI genomes to mine co-localized proteins matching arbitrary hidden Markov models (using HMMER).</li>
+                      <li>Comfortable with <strong>JavaScript</strong> and <strong>AngularJS</strong>. Contributed substantially to development of a webapp used to program and simulate dynamic optogenetic time courses for use with our custom hardware. (<a href="http://iris.taborlab.rice.edu">Iris</a>)</li>
+                      <li>Comfortable with version control (<strong>Git</strong>, <strong>GitHub</strong>)</li>
+                      <li>Familiar with <strong>C, Java, LaTeX, SolidWorks, Inkscape, Linux</strong></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h2 class="service-heading">Hardware</h2>
+                    <ul class="text-left skill-list">
+                      <li>Comfortable with basic circuit design, PCB design & routing, surface-mount soldering, assembly, and debugging.</li>
+                      <li>Comfortable with basic 3D design in SolidWorks and 3D printing (PLA extrusion)</li>
+                      <li>Experience with sub-milliliter fluidic devices and metered flow systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Publications Grid Section -->
+    <section id="publications" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Publications</h2>
+                    <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <a href="#PubModal1" data-toggle="modal"><i class="fa fa-plus fa-3x"></i></a>
+                                <!--<a href="http://www.google.com" target="_blank"><i class="fa fa-external-link fa-3x"></i></a>-->
+                            </div>
+                        </div>
+                        <a href="#PubModal1" class="portfolio-link" data-toggle="modal"><img src="img/publications/in_preparation.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>Optogenetic control of <em>C. elegans</em> gut bacterial gene expression</h4>
+                        <p class="text-muted"><strong>Hartsough</strong>, Kotlajich, Han, Wang & Tabor</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <a href="#PubModal2" data-toggle="modal"><i class="fa fa-plus fa-3x"></i></a>
+                                <!--<a href="http://www.google.com" target="_blank"><i class="fa fa-external-link fa-3x"></i></a>-->
+                            </div>
+                        </div>
+                        <a href="#PubModal2" class="portfolio-link" data-toggle="modal"><img src="img/publications/in_preparation.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>PyHMMER: a high-throughput tool for identifying protein clusters and domain architectures using Python and HMMER</h4>
+                        <p class="text-muted"><strong>Hartsough</strong> & Tabor</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <a href="#PubModal3" data-toggle="modal"><i class="fa fa-plus fa-3x"></i></a>
+                                <a href="http://www.nature.com/articles/srep35363" target="_blank"><i class="fa fa-external-link fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <a href="#PubModal3" class="portfolio-link" data-toggle="modal"><img src="img/publications/lpa_flagged.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>An open hardware platform for optogenetics and photobiology</h4>
+                        <p class="text-muted">Gerhardt, Olson, Castillo-Hair, <strong>Hartsough</strong>, Landry, Ekness, Yokoo, Gomez, Ramakrishnan, Suh, Savage & Tabor</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <a href="#PubModal4" data-toggle="modal"><i class="fa fa-plus fa-3x"></i></a>
+                                <a href="http://blogs.plos.org/synbio/2016/02/02/how-synthetic-biology-will-solve-biological-mysteries-and-make-humans-safer-in-space-by-lucas-hartsough/" target="_blank"><i class="fa fa-external-link fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <a href="#PubModal4" class="portfolio-link" data-toggle="modal"><img src="img/publications/plos_flagged.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>How Synthetic Biology Will Solve Biological Mysteries and Make Humans Safer in Space</h4>
+                        <p class="text-muted"><strong>Hartsough</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <a href="#PubModal5" data-toggle="modal"><i class="fa fa-plus fa-3x"></i></a>
+                                <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2884.html" target="_blank"><i class="fa fa-external-link fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <a href="#PubModal5" class="portfolio-link" data-toggle="modal"><img src="img/publications/nat_meth_flagged.png" class="img-responsive" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h4>Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals</h4>
+                        <p class="text-muted">Olson, <strong>Hartsough</strong>, Landry, Shroff & Tabor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Software Grid Section -->
+    <section id="software">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Software</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-sm-12 portfolio-item">
+                    <a href="#SoftModal1" class="portfolio-link" data-toggle="modal"><img src="img/software/iris.jpg" class="img-responsive img-centered" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h3>Iris</h3>
+                        <p class="text-muted">Iris is a visual programming interface for the Tabor Lab optogenetic hardware platform.</p>
+                    </div>
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content text-center">
+                            <a href="#SoftModal1" class="btn-primary btn-lg portfolio-link" data-toggle="modal">Details</a>
+                            <a href="http://iris.taborlab.rice.edu" target="_blank" class="btn-primary btn-lg">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 portfolio-item">
+                    <a href="#PubModal2" class="portfolio-link" data-toggle="modal"><img src="img/publications/in_preparation.png" class="img-responsive img-centered" alt=""></a>
+                    <div class="portfolio-caption">
+                        <h3>PyHMMER</h3>
+                        <p class="text-muted">PyHMMER enables high-throughput genome searches using HMMER.</p>
+                    </div>
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content text-center">
+                            <a href="#PubModal2" class="btn-primary btn-lg portfolio-link" data-toggle="modal">Details</a>
+                            <!--<a href="http://iris.taborlab.rice.edu" target="_blank" class="btn-primary btn-lg">Link</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience"  class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-responsive" src="img/experience/rice_logo_sm.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>2011-present</h4>
+                                    <h4 class="subheading">NSTRF Fellow (Tabor Lab)</h4>
+                                    <h6 class="subheading">Dept. of Bioengineering, Rice University</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Used optogenetic tools to investigate the relationship betwen gut microbiome and host.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-responsive" src="img/experience/nasa_logo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Summers 2012-2015</h4>
+                                    <h4 class="subheading">NASA Summer Research Intern</h4>
+                                    <h6 class="subheading">NASA Ames Research Center, Moffett Field, CA</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">NSTRF fellow, $25k CIF, OptoGeneSat</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-responsive" src="img/experience/Caltech_Seal.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>June 2011</h4>
+                                    <h4 class="subheading">BS Bioengineering with Honors</h4>
+                                    <h6 class="subheading">California Institute of Technology, Pasadena, CA</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">First class of Bioengineers! Synthetic and systems biology track.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <a href="http://2010.igem.org/Team:Caltech" target="_blank"><img class="img-responsive" src="img/experience/IGEM_logo.png" alt=""></a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Jan - Nov 2010</h4>
+                                    <h4 class="subheading">Caltech iGEM Team Captain</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">$45k funding. iGEM = Intl Gen Eng Comp. 6-person team, gold medal.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- For Fun Section -->
+    <section id="for-fun">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">For Fun!</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Flying</h4>
+                        <p class="text-muted">I'm an FAA-licensed private pilot with ~80 hours of flight time.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Bartending</h4>
+                        <p class="text-muted">I have a weekly shift at Rice's grad-student-run dive bar, Valhalla, where we serve the best beer on campus! Perhaps one day I'll graduate to cocktails...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>EMT</h4>
+                        <p class="text-muted">I recently earned national EMT Basic certification and am licensed to practice in the state of Texas. Stressful, but rewarding!</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Texas BBQ</h4>
+                        <p class="text-muted">I'm an FAA-licensed private pilot with ~80 hours of flight time.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Horseback Riding</h4>
+                        <p class="text-muted">I have a weekly shift at Rice's grad-student-run dive bar, Valhalla, where we serve the best beer on campus! Perhaps one day I'll graduate to cocktails...</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Rock Climbing</h4>
+                        <p class="text-muted">I recently earned national EMT Basic certification and am licensed to practice in the state of Texas. Stressful, but rewarding!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <span class="copyright">Copyright &copy; Lucas Hartsough 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/SynbioLucas"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://github.com/SynbioLucas"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/lhartsough/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-right">
+                    <span class="copyright">Hosted by GitHub</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Publication Modal 1 -->
+    <div class="portfolio-modal modal fade" id="PubModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Optogenetic control of C. elegans gut bacterial gene expression</h2>
+                                <h4 class="subheading"><strong>Hartsough</strong>, Kotlajich, Han, Wang & Tabor</h4>
+                                <ul class="list-inline">
+                                    <li>Journal: <em>In Preparation</em></li>
+                                    <li>Year: 2017</li>
+                                </ul>
+                                <p class="item-intro text-muted">We used our optogenetic tools to investigate the relationship between the gut microbiome and its host.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <p>Project text here.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">Journal</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="PubModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>PyHMMER</h2>
+                                <h4 class="subheading"><strong>Hartsough</strong> & Tabor</h4>
+                                <ul class="list-inline">
+                                    <li>Journal: <em>In Preparation</em></li>
+                                    <li>Year: 2017</li>
+                                </ul>
+                                <p class="item-intro text-muted">A fast, convenient genome search tool built on HMMER.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Project text here.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">Journal</a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="PubModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>An open hardware platform for optogenetics and photobiology</h2>
+                                <h4 class="subheading"><strong>Gerhardt, Olson, Castillo-Hair, <strong>Hartsough</strong>, Landry, Ekness, Yokoo, Gomez, Ramakrishnan, Suh, Savage & Tabor</h4>
+                                <ul class="list-inline">
+                                    <li>Journal: <em>Scientific Reports</em></li>
+                                    <li>Year: 2016</li>
+                                    <li>DOI: 10.1038/srep35363</li>
+                                </ul>
+                                <p class="item-intro text-muted">A fast, convenient genome search tool built on HMMER.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Project text here.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">Journal</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="PubModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>How Synthetic Biology Will Solve Biological Mysteries and Make Humans Safer in Space </h2>
+                                <h4 class="subheading"><strong>Hartsough</strong></h4>
+                                <ul class="list-inline">
+                                    <li>Blog: <em>PLoS Synthetic Biology</em></li>
+                                    <li>Year: 2016</li>
+                                </ul>
+                                <p class="item-intro text-muted">An invited opinion article explaining the status and future of synthetic biology in space.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Project text here.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <a class="btn btn-primary" href="http://blogs.plos.org/synbio/2016/02/02/how-synthetic-biology-will-solve-biological-mysteries-and-make-humans-safer-in-space-by-lucas-hartsough/" role="button" target="_blank">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="PubModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals</h2>
+                                <h4 class="subheading">Olson, <strong>Hartsough</strong>, Landry, Shroff & Tabor</h4>
+                                <ul class="list-inline">
+                                    <li>Journal: <em>Nature Methods</em></li>
+                                    <li>Year: 2014</li>
+                                </ul>
+                                <p class="item-intro text-muted">We demonstrated the ability to program arbitrarily complex gene expression profiles in <em>E. coli</em> using optogenetics.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row vertical-align">
+                            <div class="col-lg-6 col-sm-12">
+                              <div class="modal-body">
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/function_generator.png" alt="" width=85%>
+                              </div></div>
+                              <div class="col-lg-6 col-sm-12">
+                                <div class="modal-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                            </div></div>
+                          </div>
+                          <div class="row vertical-align">
+                            <div class="col-lg-6 col-sm-12">
+                              <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                          </div></div>
+                              <div class="col-lg-6 col-sm-12">
+                                <div class="modal-body">
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/arb_wave.png" alt="" width=85%>
+                              </div></div>
+                              </div>
+                            <div class="row">
+                              <div class="col-lg-8 col-lg-offset-2">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <a class="btn btn-primary" href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2884.html" role="button" target="_blank">Journal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
