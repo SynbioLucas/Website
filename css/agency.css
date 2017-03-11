@@ -327,6 +327,37 @@ section h3.section-subheading {
 #publications .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
+#publications .portfolio-item .hover-container img {
+  opacity: 1;
+  transition: .25s ease;
+}
+#publications .portfolio-item .hover-container:hover img {
+  opacity: 0.4;
+}
+#publications .portfolio-item .hover-button-left {
+  opacity: 0;
+  transition: .25s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%)
+}
+#publications .portfolio-item .hover-container:hover .hover-button-right{
+  opacity: 1;
+}
+#publications .portfolio-item .hover-button-right {
+  opacity: 0;
+  transition: .25s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -100%);
+  -ms-transform: translate(0%, -100%)
+}
+#publications .portfolio-item .hover-container:hover .hover-button-left{
+  opacity: 1;
+}
 #publications .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   width: 100%;
