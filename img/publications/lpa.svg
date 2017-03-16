@@ -64,9 +64,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="925.57232"
-     inkscape:cy="619.21402"
+     inkscape:zoom="1.4"
+     inkscape:cx="832.90474"
+     inkscape:cy="592.63113"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -117,7 +117,7 @@
        height="55.504372"
        width="375.93719"
        style="stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,-4,2)"
        clip-path="url(#clipPath4392)" />
   </g>
 </svg>
