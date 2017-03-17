@@ -433,8 +433,8 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                     <li>Year: 2017</li>
                                 </ul>
                                 <p class="item-intro text-muted">We used our optogenetic tools to investigate the relationship between the gut microbiome and its host.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Project text here.</p>
+                                <img class="img-responsive img-centered" src="img/publications/in_preparation.png" alt="">
+                                <p>We have developed a method for real-time remote-control of bacterial gene expression <em>in-situ</em> in the worm gut. This work has exciting applications in studying detailed biological processes at the frontier of microbiome science. Stay tuned for more!</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">PDF</a>-->
                             </div>
@@ -465,8 +465,9 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                     <li>Year: 2017</li>
                                 </ul>
                                 <p class="item-intro text-muted">A fast, convenient genome search tool built on HMMER.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Project text here.</p>
+                                <img class="img-responsive img-centered" src="img/publications/in_preparation.png" alt="">
+                                <p>PyHMMER was built to enable high-throughput genetic part-mining: searching genomeic databases for proteins containing particular sequences of domains and co-localized on the genome. We realized that while there are many tools to do individual parts of this workflow, or to perform this workflow for very specific classes of proteins, there exists no flexible, programmable and high-throughput method of part-mining in this manner.</p>
+                                <p>Built on the popular <a href="http://www.ebi.ac.uk/Tools/hmmer/" target="_blank">HMMER</a> tool, and written in Python, PyHMMER can quickly and easily search for proteins with any desired Pfam domain sequence (or custom-defined domains). It can also hierarchically find co-localized clusters of proteins matching different domain architectures (e.g. all instances Protein A (Domains 1, 2 &amp; 3) within 200bp of Protein B (Domains 3 &amp; 4, and not 5) on the genome). Together, this becomes a powerful tool for finding biologically-relevant protein clusters in genomes, like bacterial two-component sensors, toxin-antitoxin systems, CRISPR islands, and more!</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">PDF</a>-->
                             </div>
@@ -628,39 +629,12 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                     <li><a href="https://github.com/taborlab/Iris/" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
                                 </ul>
                                 <p class="item-intro text-muted">A simple web-based programming interface for the Tabor Lab optogenetic hardware</p>
+                                <img class="img-responsive img-centered" src="img/software/iris.jpg" alt="">
+                                <p>The Tabor Lab has developed an open-source hardware platform for standardizing optogentic and photobiology experiments and to help more people apply optogenetics in their own labs. To facilitate programming the LEDs in this device for use in exposing cells to dynamic light patterns, we have also developed a web-based visual programming interface, called Iris.</p>
+                                <p>Iris allows anyone to quickly and easily get their hardware up and running by helping users specify each aspect of their light program in the left panel, and immediately seeing its effect in the simulation panel on the right. Users can check how their light program behaves accross the entire plate (shown) or full time traces for individual LEDs in a well. Once the desired program is complete, the user simply downloads the compiled binary file to an SD card and inserts it into their LPA device to start the program.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <a class="btn btn-primary" href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">Publication</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row vertical-align">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="modal-body">
-                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/arb_wave.png" alt="" width=75%>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="modal-body">
-                                <p>We set out to characterize the previously-published Tabor Lab optogenetic sensor proteins (Cph8/OmpR &amp; CcaS/R), which convert light inputs to gene expression outputs. Using custom optogenetic hardware, we used a series of step-responses to assess the dynamic response of each of these sensors to light input. This was then used to parameterize a quantitative model that allowed us to predict the output of each sensor for any series of light inputs.</p>
-                                <p>With this predictive power, we realized that we could use such a model in reverse to calculate the exact series of light inputs (<em>green dashed line</em>) required to achieve a specified output, like the arbitrary curve to the left (<em>black line</em>), which we were able to do with over 95% accuracy (<em>green dots</em>).</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row vertical-align">
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="modal-body">
-                                <p>The ability to remotely program arbitrarily complex gene expression patterns in cells has never before been achieved with such precision. This capability enables the light sensors to act as the biological analogs of electronic function generators, which are used to debug and characterize other downstream circuits (<em>right</em>). We applied this analogy to the CcaS/R light sensor by connecting its output to both a reporter gene (sfGFP) and a simple downstream gene circuit (TetR). We then used light to program various dynamic output signals from the CcaS/R system, through the TetR inverter circuit, and finally to TetR's output with another reporter gene (mCherry).</p>
-                                <p>In this way, we used the CcaS/R light sensor to dynamically characterize the input-output characteristics of the TetR gene circuit, which serves as a proof of principle for more complex circuits. As circuit characterization is a crucial method for electrical engineers to debug and engineer electronic circuits, so too do we believe our method will enable bioengineers to better construct and debug novel biological circuits.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <div class="modal-body">
-                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/function_generator.png" alt="" width=85%>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            <a class="btn btn-primary" href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">Publication</a>
                         </div>
                     </div>
                 </div>
