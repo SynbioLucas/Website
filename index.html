@@ -109,7 +109,7 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                         <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
                     </span>
                     <h2 class="service-heading">Wetware</h2>
-                    <ul class="text-left skill-list list-group">
+                    <ul class="skill-list list-group">
                         <li class="list-group-item"><strong>Optogenetic &amp; chemical manipulation</strong> of bacterial gene expression using custom hardware, both in liquid culture and with microscopy</li>
                         <li class="list-group-item">Proficient in design and assembly of <strong>bacterial gene circuits</strong>, especially sense-respond systems.</li>
                         <li class="list-group-item">Highly experienced with measurement &amp; analysis of single-cell fluorescence via <strong>flow cytometry</strong> as well as time-lapse, single-cell <strong>fluorescence microscopy</strong></li>
@@ -122,9 +122,9 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h2 class="service-heading">Software</h2>
-                    <ul class="text-left skill-list list-group">
+                    <ul class="skill-list list-group">
                         <li class="list-group-item">Proficient with <strong>Python</strong>. Created a custom package, <a href="#PubModal2" data-toggle="modal">PyHMMER</a>, that enables high-throughput analysis of all NCBI genomes to mine co-localized proteins matching arbitrary hidden Markov models.</li>
-                        <li class="list-group-item">Comfortable with <strong>JavaScript</strong> and <strong>AngularJS</strong>. Co-developed a webapp, <a href="http://iris.taborlab.rice.edu">Iris</a>, used to program and simulate dynamic optogenetic time courses for use with our custom hardware.</li>
+                        <li class="list-group-item">Comfortable with <strong>JavaScript</strong> and <strong>AngularJS</strong>. Co-developed a webapp, <a href="http://iris.taborlab.rice.edu">Iris</a>, used to program and simulate dynamic optogenetic time courses for use with our lab's open-source hardware platform.</li>
                         <li class="list-group-item">Familiar with <strong>C, Java, LaTeX, SolidWorks, Inkscape &amp; Linux</strong>, and comfortable with version control (<strong>Git</strong>, <strong>GitHub</strong>)</li>
                     </ul>
                 </div>
@@ -134,7 +134,7 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                         <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
                     </span>
                     <h2 class="service-heading">Hardware</h2>
-                    <ul class="text-left skill-list list-group">
+                    <ul class="skill-list list-group">
                         <li class="list-group-item">Comfortable with <strong>basic circuit design</strong>: PCB design & routing, surface-mount soldering, assembly, and debugging. Used these skills to adapt our optogenetic hardware to be compatible with a CubeSat form factor.</li>
                         <li class="list-group-item">Highly experienced with programmable microcontrollers (<strong>Arduino, RaspberryPi</strong>) for use in automating optogenetic apparatus and other hardware.</li>
                         <li class="list-group-item">Comfortable with basic 3D design in SolidWorks and <strong>3D printing</strong> (PLA extrusion)</li>
@@ -203,7 +203,7 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                     <div class="hover-container">
                         <a href="#PubModal5" class="portfolio-link" data-toggle="modal"><img src="img/publications/nat_meth_flagged.png" class="img-responsive" alt=""></a>
                         <div class="vertical-align text-center hover-button-left"><a href="#PubModal5" data-toggle="modal" class="btn btn-primary">Info</a></div>
-                        <div class="vertical-align text-center hover-button-right"><a href="pdf/Olson_Nat_Meth_2014.pdf" target="_blank" class="btn btn-primary">Link</a></div>
+                        <div class="vertical-align text-center hover-button-right"><a href="pdf/Olson_Nat_Meth_2014.pdf" target="_blank" class="btn btn-primary">PDF</a></div>
                     </div>
                     <div class="portfolio-caption">
                         <h4>Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals</h4>
@@ -436,7 +436,7 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                 <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
                                 <p>Project text here.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">Journal</a>-->
+                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">PDF</a>-->
                             </div>
                         </div>
                     </div>
@@ -468,7 +468,7 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                 <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
                                 <p>Project text here.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">Journal</a>-->
+                                <!--<a class="btn btn-primary" href="http://www.google.com" role="button" target="_blank">PDF</a>-->
                             </div>
                         </div>
                     </div>
@@ -498,10 +498,12 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                     <li>DOI: 10.1038/srep35363</li>
                                 </ul>
                                 <p class="item-intro text-muted">A fast, convenient genome search tool built on HMMER.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Project text here.</p>
+                                <img class="img-responsive img-centered" src="img/publications/lpa_flagged.png" alt="">
+                                <p>One substantial barrier in the fields of optogenetics and photobiology is the necessity to either build or buy light hardware, which can require substantial expertise, time, and funds to implement. Frustrated by this, our lab set out to build a simple hardware platform suitable for a wide range of common experiments that was also easy for anyone to build and use.</p>
+                                <p>The result is a 24-well plate device we call the Light Plate Apparatus (LPA). It is composed of a circuit board that enables independent control of 2 LEDs in each well and cheap, 3D-printed plastic structural scaffolds. Using commercial fabrication, an LPA device can be made for about $400, but access to a 3D printer and a bit of soldering knowhow drops this price to $150 or less. Similarly, programming the dynamic LED output has been dramatically simplified by an online web interface capable of simply defining complex light courses and simulating the results for quick and easy debugging. Finally, all of the hardware designs and software are available as an open-source repository to allow others to easily modify and extend the LPA platform to suit them.</p>
+                                <p>Our hope is that the entire field can benefit from easy access to such hardware, allowing greater experimenal consistency among established labs as well as newcomers to be enticed to consider the applications of optogenetics in their scientific pursuits. For more information, see the <a href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">open-access publication</a> or visit the <a href="http://taborlab.rice.edu/hardware">Tabor Lab webpage</a>.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                <a class="btn btn-primary" href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">Journal</a>
+                                <a class="btn btn-primary" href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">PDF</a>
                             </div>
                         </div>
                     </div>
@@ -529,9 +531,10 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                                     <li>Blog: <em>PLoS Synthetic Biology</em></li>
                                     <li>Year: 2016</li>
                                 </ul>
-                                <p class="item-intro text-muted">An invited opinion article explaining the status and future of synthetic biology in space.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Project text here.</p>
+                                <p class="item-intro text-muted">An opinion article explaining the status and future of synthetic biology in space.</p>
+                                <img class="img-responsive img-centered" src="img/publications/plos_flagged.png" alt="">
+                                <p>One of the challenging aspects of human spaceflight is that many biological systems, including humans and the commensal bacteria living inside us, are physiologically perturbed in microgravity. At the large scale, humans develop issues in many organ systems, including the eyes, musculature, and bones. Worse, at even smaller scales bacteria also experience dramaitc changes in space that can make pathogens more virulent and resistant to antibiotics.</p>
+                                <p>To learn how to address these problems, and perhaps even engineer organisms resistant to microgravity stress, we will have to turn to synthetic biology. It will give engineers the tools to investigate the biological mechanism of this phenomenon and, more excitingly, to develop engineered organisms that can help humans expand into long-duration space missions, aiding with tasks from food production, to pathogen protection and resource mining.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 <a class="btn btn-primary" href="http://blogs.plos.org/synbio/2016/02/02/how-synthetic-biology-will-solve-biological-mysteries-and-make-humans-safer-in-space-by-lucas-hartsough/" role="button" target="_blank">Link</a>
                             </div>
@@ -569,31 +572,95 @@ Adapted from the Start Bootstrap Agency template (https://github.com/BlackrockDi
                     <div class="row vertical-align">
                         <div class="col-lg-6 col-sm-12">
                             <div class="modal-body">
-                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/function_generator.png" alt="" width=85%>
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/arb_wave.png" alt="" width=75%>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-12">
                             <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                                <p>We set out to characterize the previously-published Tabor Lab optogenetic sensor proteins (Cph8/OmpR &amp; CcaS/R), which convert light inputs to gene expression outputs. Using custom optogenetic hardware, we used a series of step-responses to assess the dynamic response of each of these sensors to light input. This was then used to parameterize a quantitative model that allowed us to predict the output of each sensor for any series of light inputs.</p>
+                                <p>With this predictive power, we realized that we could use such a model in reverse to calculate the exact series of light inputs (<em>green dashed line</em>) required to achieve a specified output, like the arbitrary curve to the left (<em>black line</em>), which we were able to do with over 95% accuracy (<em>green dots</em>).</p>
                             </div>
                         </div>
                     </div>
                     <div class="row vertical-align">
                         <div class="col-lg-6 col-sm-12">
                             <div class="modal-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                                <p>The ability to remotely program arbitrarily complex gene expression patterns in cells has never before been achieved with such precision. This capability enables the light sensors to act as the biological analogs of electronic function generators, which are used to debug and characterize other downstream circuits (<em>right</em>). We applied this analogy to the CcaS/R light sensor by connecting its output to both a reporter gene (sfGFP) and a simple downstream gene circuit (TetR). We then used light to program various dynamic output signals from the CcaS/R system, through the TetR inverter circuit, and finally to TetR's output with another reporter gene (mCherry).</p>
+                                <p>In this way, we used the CcaS/R light sensor to dynamically characterize the input-output characteristics of the TetR gene circuit, which serves as a proof of principle for more complex circuits. As circuit characterization is a crucial method for electrical engineers to debug and engineer electronic circuits, so too do we believe our method will enable bioengineers to better construct and debug novel biological circuits.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-12">
                             <div class="modal-body">
-                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/arb_wave.png" alt="" width=85%>
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/function_generator.png" alt="" width=85%>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            <a class="btn btn-primary" href="pdf/Olson_Nat_Meth_2014.pdf" role="button" target="_blank">Journal</a>
+                            <a class="btn btn-primary" href="pdf/Olson_Nat_Meth_2014.pdf" role="button" target="_blank">PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Software Modal 1 -->
+    <div class="portfolio-modal modal fade" id="SoftModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Iris</h2>
+                                <h4 class="subheading">Hartsough, Landry &amp; Ekness</h4>
+                                <ul class="list-inline">
+                                    <li>URL: <a href="http://iris.taborlab.rice.edu">http://iris.taborlab.rice.edu</a></li>
+                                    <li>Language: JavaScript+AngularJS</li>
+                                    <li><a href="https://github.com/taborlab/Iris/" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+                                </ul>
+                                <p class="item-intro text-muted">A simple web-based programming interface for the Tabor Lab optogenetic hardware</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="modal-body">
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/arb_wave.png" alt="" width=75%>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="modal-body">
+                                <p>We set out to characterize the previously-published Tabor Lab optogenetic sensor proteins (Cph8/OmpR &amp; CcaS/R), which convert light inputs to gene expression outputs. Using custom optogenetic hardware, we used a series of step-responses to assess the dynamic response of each of these sensors to light input. This was then used to parameterize a quantitative model that allowed us to predict the output of each sensor for any series of light inputs.</p>
+                                <p>With this predictive power, we realized that we could use such a model in reverse to calculate the exact series of light inputs (<em>green dashed line</em>) required to achieve a specified output, like the arbitrary curve to the left (<em>black line</em>), which we were able to do with over 95% accuracy (<em>green dots</em>).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row vertical-align">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="modal-body">
+                                <p>The ability to remotely program arbitrarily complex gene expression patterns in cells has never before been achieved with such precision. This capability enables the light sensors to act as the biological analogs of electronic function generators, which are used to debug and characterize other downstream circuits (<em>right</em>). We applied this analogy to the CcaS/R light sensor by connecting its output to both a reporter gene (sfGFP) and a simple downstream gene circuit (TetR). We then used light to program various dynamic output signals from the CcaS/R system, through the TetR inverter circuit, and finally to TetR's output with another reporter gene (mCherry).</p>
+                                <p>In this way, we used the CcaS/R light sensor to dynamically characterize the input-output characteristics of the TetR gene circuit, which serves as a proof of principle for more complex circuits. As circuit characterization is a crucial method for electrical engineers to debug and engineer electronic circuits, so too do we believe our method will enable bioengineers to better construct and debug novel biological circuits.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="modal-body">
+                                <img class="img-responsive img-centered" src="img/publications/Nat_Meth_2014/function_generator.png" alt="" width=85%>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <a class="btn btn-primary" href="pdf/Gerhardt_Sci_Rep_2016.pdf" role="button" target="_blank">Publication</a>
                         </div>
                     </div>
                 </div>
